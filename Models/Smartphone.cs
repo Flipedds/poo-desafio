@@ -3,7 +3,6 @@ namespace Models;
 public abstract class Smartphone
 {
     public string Numero { get; set; }
-    public object Nome { get; }
     public string Modelo { get; set; }
 
     public string IMEI { get; set; }
