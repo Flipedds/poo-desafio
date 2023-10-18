@@ -8,6 +8,6 @@ public class Nokia: Smartphone
 
     public override void InstalarAplicativo(string nome)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Aplicativo {nome} instalado com sucesso no seu Nokia !!!!!!");
     }
 }
